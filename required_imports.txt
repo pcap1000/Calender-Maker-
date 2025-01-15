@@ -1,0 +1,14 @@
+
+from customtkinter import *  # CustomTkinter for enhanced tkinter widgets
+from tkinter import messagebox, filedialog, simpledialog  # Standard tkinter dialogs
+from tkcalendar import DateEntry  # Calendar widget for date selection
+from datetime import datetime, timedelta  # For date manipulation
+import openpyxl  # Library for handling Excel files
+from openpyxl.styles import Font, Alignment, PatternFill, Border, Side  # Styles for Excel cells
+from openpyxl.utils import get_column_letter
+# Optional Imports
+import pandas as pd  # For data manipulation
+import matplotlib.pyplot as plt  # For visualizations
+import numpy as np  # For numerical operations
+from dateutil import parser  # Extended date functionalities
+from tkinter import ttk  # For additional widgets in tkinter
